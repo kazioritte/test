@@ -1,0 +1,5 @@
+.git
+.gitignore
+.rsyncignore
+sync.sh
+wp.pem
