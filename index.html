@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="utf-8">
-        <title>Bootstrapの練習</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<html>
+  <head>
+    <title>Bootstrapの練習</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
 
-    </head>
-    <body>
-        <div id="header" style="background:red:">header</div>
+	<div id="header" class="container" style="background:red;">header</div>
 
-        <div class="row">
-            <div class="col-sm-3" style="background:pink;">Side1</div> 
-        </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3" style="background:grey;">Side1</div>
+			<div class="col-sm-6" style="background:green;">Main</div>
+			<div class="col-sm-3" style="background:orange;">Side2</div>
+		</div>
+	</div>
 
 
 
-        <div id="footer" style="background:blue:">footer</div>
-        <script src="http//code.jquery.com/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </body>
-</html> 
+	<div id="footer" style="background:blue;">footer</div>
+
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
