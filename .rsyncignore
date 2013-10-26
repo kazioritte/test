@@ -2,4 +2,4 @@
 .gitignore
 .rsyncignore
 sync.sh
-wp.pem
+.wp.pem
