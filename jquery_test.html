@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div>１　対象タグ以外の文です。</div>
+    <div><aaa>２　この文は<aaa>～</aaa>で囲まれています。 </aaa></div>
+    <div><bbb>３　この文は<bbb>～</bbb>で囲まれています。</bbb></div>
+    <div><aaa>４　この文は<aaa>～</aaa>で囲まれています。</aaa></div>
+    <script src="jquery-1.10.2.js"></script>
+
+<script type="text/javascript">
+　　function rei1() {
+　　　　$("aaa").css("color", "red");　　　　
+　　　　$("bbb").text("★★書き換えました★★");
+　　}
+alert("test");
+</script>
+</body>
+</html>
